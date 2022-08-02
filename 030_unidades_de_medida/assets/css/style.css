@@ -1,0 +1,50 @@
+/*
+  Unidades de Medida:
+  - px (absoluto)
+
+  - em (relativo ao tamanho do elemento pai)
+  - rem (relativo ao tamanho do elemento raiz)
+  - vw (relativo a largura da tela)
+  - vh (relativo a altura da tela)
+  - % (relativo ao tamanho do elemento pai)
+  - vmin (relativo a menor largura da tela)
+  - vmax (relativo a maior largura da tela)
+*/
+
+html {
+  font-size: 62,5%;
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav > ul > li {
+  display: inline-block;
+}
+
+.pai {
+  width: 100vw;
+  height: 100vh;
+  background: yellow;
+}
+
+/* .pai > div {
+  width: 50%;
+  height: 50rem;
+  background: blue;
+} */
+
+p {
+  font-size: 1.6rem;
+}
+
+.color-one {
+  background: turquoise;
+}
+
+.color-two {
+  background: violet;
+}
