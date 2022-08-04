@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start; /* Eixo X */
+  align-items: flex-start; /* Eixo Y */
+  align-content: center;
+  flex-wrap: wrap; /* Se faltar espaço, a linha é quebrada */
+  background: yellow;
+  height: 640px;
+}
+
+.flex-item {
+  color: white;
+  width: 33.33%;
+  background: red;
+  margin: 10px;
+}
+
+/* .flex-item:nth-child(3) {
+  font-size: 40px;
+} */
