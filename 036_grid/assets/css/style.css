@@ -13,8 +13,11 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-  gap: 30px;
+  /* grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); */
+  grid-template-columns: [um]1fr [dois]1fr [tres]1fr [quatro];
+  /* gap: 30px; /* Atalho para row-gap e column-gap */
+  row-gap: 30px;
+  column-gap: 30px;
 }
 
 .grid div {
@@ -24,12 +27,7 @@ body {
 
 .grid div:nth-child(5) {
   background: darkred;
-  grid-column: span 1;
-  grid-row: span 2;
-}
-
-@media (max-width: 768px) {
-  .grid div:nth-child(5) {
-    grid-column: span 1;
-  }
+  grid-column-start: dois;
+  grid-column-end: tres;
+  /* grid-area: 1 / 1 / 5 / 3; */
 }
