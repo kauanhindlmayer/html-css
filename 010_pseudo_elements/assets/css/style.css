@@ -1,0 +1,35 @@
+ul li::before {
+  content: ' # ';
+  background: rgba(0, 0, 0, 0.1);
+  color: white;
+}
+
+ul li::after {
+  content: ' # ';
+  background: rgba(0, 0, 0, 0.1);
+  color: white;
+}
+
+p::first-letter {
+  font-size: 75px;
+  display: block;
+  float: left;
+  margin: 0 10px 10px 0;
+}
+
+p {
+  font-size: 12px;
+}
+
+p::first-line {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+p::selection {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+::placeholder {
+  color: red;
+}
