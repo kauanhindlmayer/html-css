@@ -1,0 +1,18 @@
+/*
+  Especificidade:
+  ID      Classes, atributos e pseudo-classes     Elementos e pseudo-elementos
+  
+  !important
+*/
+
+.container p#p {
+  background: purple !important;
+}
+
+#p { 
+  background: red;
+}
+
+.p { 
+  background: yellow;
+}
