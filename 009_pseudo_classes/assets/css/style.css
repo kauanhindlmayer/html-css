@@ -1,0 +1,48 @@
+.heading {
+  transition: all 100ms ease-in-out;
+}
+
+.heading:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+a {
+  color: darkorange;
+}
+
+a:link {
+  color: deeppink;
+}
+
+a:visited {
+  color: firebrick;
+}
+
+a:hover {
+  background: darkslateblue;
+  color: white;
+  text-decoration: none;
+}
+
+a:active {
+  background: darkslategray;
+  color: white;
+  text-decoration: none;
+}
+
+/* input:focus {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  border: 1px solid black;
+}
+
+input:disabled {
+  background: rebeccapurple;
+} */
+
+input:checked + .texto {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.pai .lista li:first-child {
+  background: rgba(0, 0, 0, 0.1);
+}
