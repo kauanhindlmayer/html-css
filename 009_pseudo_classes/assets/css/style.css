@@ -43,6 +43,18 @@ input:checked + .texto {
   background: rgba(0, 0, 0, 0.1);
 }
 
-.pai .lista li:first-child {
+/* .pai .lista li:first-child {
   background: rgba(0, 0, 0, 0.1);
+} */
+
+p:not(.meio) {
+  color: rgba(0, 0, 0, 0.1);;
+}
+
+ul li:nth-child(even) {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+ul li:nth-child(odd) {
+  background: rgb(0, 0, 0, 0.2);
 }
